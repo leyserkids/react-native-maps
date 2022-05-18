@@ -32,10 +32,6 @@ After installing the npm package, we need to install the pod.
 npx pod-install
 ```
 
-### Set the usage description property
-
-The app's `Info.plist` file must contain a `NSLocationWhenInUseUsageDescription` with a user-facing purpose string explaining clearly and completely why your app needs the location, otherwise Apple will reject your app submission.
-
 ### Enabling Google Maps
 
 If you want to enable Google Maps on iOS, obtain the Google API key and edit your `AppDelegate.m` as follows:
